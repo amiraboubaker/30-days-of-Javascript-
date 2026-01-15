@@ -1,7 +1,7 @@
 const isEmpty = require('./solution');
 
 // Test case 1: Non-empty object
-console.log('Test 1:', isEmpty({"x": 5, "y": 42})); // Expected: false
+console.log('Test 1:', isEmpty({ "x": 5, "y": 42 })); // Expected: false
 
 // Test case 2: Empty object
 console.log('Test 2:', isEmpty({})); // Expected: true
